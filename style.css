@@ -1,0 +1,96 @@
+body {
+  background-image:url("images/salmon_waterfallbackground.png");
+}
+
+header {
+  padding:8px;
+}
+
+#start {
+  width: 150px;
+  height:100px;
+  background-color:yellow;
+  font-family: "Josefin Slab", serif;
+  font-size:30px;
+  border-radius: 20px;
+  text-align:center;
+  box-shadow: 0px 0px 30px black;
+}
+
+.flex {
+  display:flex;
+  flex-direction:row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+
+#top {
+ height:200px
+}
+
+
+#bottom {
+  width: 1280px;
+  height: 300px;
+}
+
+h1, h2 {
+  text-align:right;
+  color: purple;
+  margin:0;
+  text-shadow: 0px 0px 10px white;
+}
+
+h1 {
+  font-size: 125px;
+  font-family:"Josefin Slab", serif;
+  margin:0 0 -16px 0;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0 125px 0 0;
+}
+
+
+
+.button {
+  border: 8px solid #282828;
+  text-align:center;
+  width: 150px;
+  height: 150px;
+  line-height:150px;
+  font-size: 65px;
+  border-radius:100px;
+  font-family:"Josefin Slab", serif;
+  font-weight:bold;
+  background-color:#DDD;
+  color: rgba(40,40,40, 0.8);
+  text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def;
+}
+
+.active#one {
+
+}
+
+.active#two {
+
+}
+
+.active#three {
+
+}
+
+.active#four {
+
+}
+
+.active#five {
+
+}
+
+.active#six {
+
+}
