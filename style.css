@@ -72,25 +72,60 @@ h2 {
 }
 
 .active#one {
-
+  box-shadow: 0px 0px 30px #FC82AF;
+  background-color: #FC82AF;
+  text-shadow: none;
+  color: white;
 }
 
 .active#two {
-
+  box-shadow: 0px 0px 30px #98A192;
+  background-color: #98A192;
+  text-shadow: none;
+  color: white;
 }
 
 .active#three {
-
+  box-shadow: 0px 0px 30px #B82828;
+  background-color: #B82828;
+  text-shadow: none;
+  color: white;
 }
 
 .active#four {
-
+  box-shadow: 0px 0px 30px #72D2D2;
+  background-color: #72D2D2;
+  text-shadow: none;
+  color: white;
 }
 
 .active#five {
-
+  box-shadow: 0px 0px 30px #FCA147;
+  background-color: #FCA147;
+  text-shadow: none;
+  color: white;
 }
 
 .active#six {
+  box-shadow: 0px 0px 30px #AC0297;
+  background-color: #AC0297;
+  text-shadow: none;
+  color: white;
+}
 
+.active#start {
+  background-color: purple;
+  text-shadow: none;
+  color: white;
+  border: 3px solid white;
+}
+
+.gameover#start {
+  padding-top:60px;
+  width: 300px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: red;
+  border: 3px solid black;
+  box-shadow: 0px 0px 30px red;
 }
