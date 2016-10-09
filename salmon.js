@@ -49,22 +49,22 @@ readMemorizeArray = function() {
   for (var i = 0; i < memorizeArray.length; i++) {
     if (memorizeArray[i] == 1) {
       setTimeout(game.one.activate, 800*i);
-      setTimeout(game.one.deactivate, 800*i+800);
+      setTimeout(game.one.deactivate, 800*i+700);
     } else if (memorizeArray[i] == 2) {
       setTimeout(game.two.activate, 800*i);
-      setTimeout(game.two.deactivate, 800*i+800);
+      setTimeout(game.two.deactivate, 800*i+700);
     } else if (memorizeArray[i] == 3) {
       setTimeout(game.three.activate, 800*i);
-      setTimeout(game.three.deactivate, 800*i+800);
+      setTimeout(game.three.deactivate, 800*i+700);
     } else if (memorizeArray[i] == 4) {
       setTimeout(game.four.activate, 800*i);
-      setTimeout(game.four.deactivate, 800*i+800);
+      setTimeout(game.four.deactivate, 800*i+700);
     } else if (memorizeArray[i] == 5) {
       setTimeout(game.five.activate, 800*i);
-      setTimeout(game.five.deactivate, 800*i+800);
+      setTimeout(game.five.deactivate, 800*i+700);
     } else {
       setTimeout(game.six.activate, 800*i);
-      setTimeout(game.six.deactivate, 800*i+800);
+      setTimeout(game.six.deactivate, 800*i+700);
     }
   }
 }
@@ -140,10 +140,3 @@ game.three.button.on("click", addAttempt.bind(game.three));
 game.four.button.on("click", addAttempt.bind(game.four));
 game.five.button.on("click", addAttempt.bind(game.five));
 game.six.button.on("click", addAttempt.bind(game.six));
-
-//1. user clicks start
-//2. optionsArray is randomized and the random item is pushed to memorizeArray
-//3. memorizeArray is 'read' in order (loop?) on a delay
-//4. each time the user clicks, the value is pushed to attemptArray; each time a new item is added to the array, it is checked against memorizeArray until all items match memorize Array.
-//5. if all items match - restart at randomization
-//6. if it does not match - halt process and prompt to play again; subsequent button should reload page).
